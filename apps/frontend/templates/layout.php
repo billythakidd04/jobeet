@@ -3,7 +3,9 @@
  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
-    <title>Jobeet - Your best job board</title>
+	<title>
+		<?php echo (!include_slot('title'))? 'Jobeet - Your best job board':get_slot('title')?>
+	</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <?php include_javascripts() ?>
     <?php include_stylesheets() ?>
