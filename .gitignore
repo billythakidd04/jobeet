@@ -2,3 +2,7 @@
 .settings
 .project
 .metadata
+
+#symphony generated
+cache/
+log/
