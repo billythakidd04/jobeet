@@ -1,0 +1,76 @@
+Jun 10 12:10:32 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 10 12:10:32 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 10 12:10:32 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 10 12:10:32 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Jun 10 12:10:32 symfony [info] {sfPHPView} Render "/home/thakidd/workspace/jobeet/lib/vendor/symfony/symfony1/lib/controller/default/templates/indexSuccess.php"
+Jun 10 12:10:32 symfony [info] {sfPHPView} Decorate content with "/home/thakidd/workspace/jobeet/lib/vendor/symfony/symfony1/lib/controller/default/templates/defaultLayout.php"
+Jun 10 12:10:32 symfony [info] {sfPHPView} Render "/home/thakidd/workspace/jobeet/lib/vendor/symfony/symfony1/lib/controller/default/templates/defaultLayout.php"
+Jun 10 12:10:32 symfony [warning] {sfWebDebugLogger}  Warning at /home/thakidd/workspace/jobeet/lib/vendor/symfony/symfony1/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /home/thakidd/workspace/jobeet/lib/vendor/symfony/symfony1/lib/response/sfWebResponse.class.php:409))
+Jun 10 12:10:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 10 12:10:32 symfony [warning] {sfWebDebugLogger}  Warning at /home/thakidd/workspace/jobeet/lib/vendor/symfony/symfony1/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /home/thakidd/workspace/jobeet/lib/vendor/symfony/symfony1/lib/response/sfWebResponse.class.php:409))
+Jun 10 12:10:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 10 12:10:32 symfony [info] {sfWebDebugLogger} Configuration 54.27 ms (9)
+Jun 10 12:10:32 symfony [info] {sfWebDebugLogger} Factories 52.17 ms (1)
+Jun 10 12:10:32 symfony [info] {sfWebDebugLogger} Action "default/index" 0.08 ms (1)
+Jun 10 12:10:32 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 6.41 ms (1)
+Jun 10 12:10:32 symfony [info] {sfWebResponse} Send content (29126 o)
+Jun 10 13:01:33 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 10 13:01:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 10 13:01:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 10 13:01:33 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Jun 10 13:01:33 symfony [info] {sfPHPView} Render "/home/thakidd/workspace/jobeet/lib/vendor/symfony/symfony1/lib/controller/default/templates/indexSuccess.php"
+Jun 10 13:01:33 symfony [info] {sfPHPView} Decorate content with "/home/thakidd/workspace/jobeet/lib/vendor/symfony/symfony1/lib/controller/default/templates/defaultLayout.php"
+Jun 10 13:01:33 symfony [info] {sfPHPView} Render "/home/thakidd/workspace/jobeet/lib/vendor/symfony/symfony1/lib/controller/default/templates/defaultLayout.php"
+Jun 10 13:01:33 symfony [warning] {sfWebDebugLogger}  Warning at /home/thakidd/workspace/jobeet/lib/vendor/symfony/symfony1/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /home/thakidd/workspace/jobeet/lib/vendor/symfony/symfony1/lib/response/sfWebResponse.class.php:409))
+Jun 10 13:01:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 10 13:01:33 symfony [warning] {sfWebDebugLogger}  Warning at /home/thakidd/workspace/jobeet/lib/vendor/symfony/symfony1/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /home/thakidd/workspace/jobeet/lib/vendor/symfony/symfony1/lib/response/sfWebResponse.class.php:409))
+Jun 10 13:01:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 10 13:01:33 symfony [info] {sfWebDebugLogger} Configuration 0.74 ms (9)
+Jun 10 13:01:33 symfony [info] {sfWebDebugLogger} Factories 28.50 ms (1)
+Jun 10 13:01:33 symfony [info] {sfWebDebugLogger} Action "default/index" 0.08 ms (1)
+Jun 10 13:01:33 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 9.64 ms (1)
+Jun 10 13:01:33 symfony [info] {sfWebResponse} Send content (28959 o)
+Jun 10 13:01:40 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 10 13:01:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 10 13:01:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 10 13:01:40 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Jun 10 13:01:40 symfony [info] {sfPHPView} Render "/home/thakidd/workspace/jobeet/lib/vendor/symfony/symfony1/lib/controller/default/templates/indexSuccess.php"
+Jun 10 13:01:40 symfony [info] {sfPHPView} Decorate content with "/home/thakidd/workspace/jobeet/lib/vendor/symfony/symfony1/lib/controller/default/templates/defaultLayout.php"
+Jun 10 13:01:40 symfony [info] {sfPHPView} Render "/home/thakidd/workspace/jobeet/lib/vendor/symfony/symfony1/lib/controller/default/templates/defaultLayout.php"
+Jun 10 13:01:40 symfony [warning] {sfWebDebugLogger}  Warning at /home/thakidd/workspace/jobeet/lib/vendor/symfony/symfony1/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /home/thakidd/workspace/jobeet/lib/vendor/symfony/symfony1/lib/response/sfWebResponse.class.php:409))
+Jun 10 13:01:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 10 13:01:40 symfony [warning] {sfWebDebugLogger}  Warning at /home/thakidd/workspace/jobeet/lib/vendor/symfony/symfony1/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /home/thakidd/workspace/jobeet/lib/vendor/symfony/symfony1/lib/response/sfWebResponse.class.php:409))
+Jun 10 13:01:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 10 13:01:40 symfony [info] {sfWebDebugLogger} Configuration 0.93 ms (9)
+Jun 10 13:01:40 symfony [info] {sfWebDebugLogger} Factories 5.51 ms (1)
+Jun 10 13:01:40 symfony [info] {sfWebDebugLogger} Action "default/index" 0.09 ms (1)
+Jun 10 13:01:40 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 4.06 ms (1)
+Jun 10 13:01:40 symfony [info] {sfWebResponse} Send content (29155 o)
+Jun 10 13:05:43 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 10 13:05:43 symfony [warning] {sfWebDebugLogger}  Warning at /home/thakidd/workspace/jobeet/cache/frontend/dev/config/config_factories.yml.php on line 141 (require_once(/home/thakidd/workspace/jobeet/lib/vendor/symfony/symfony1/lib/vendor/swiftmailer/classes/Swift.php): failed to open stream: No such file or directory)
+Jun 10 13:09:08 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 10 13:09:08 symfony [warning] {sfWebDebugLogger}  Warning at /home/thakidd/workspace/jobeet/cache/frontend/dev/config/config_factories.yml.php on line 141 (require_once(/home/thakidd/workspace/jobeet/lib/vendor/symfony/symfony1/lib/vendor/swiftmailer/classes/Swift.php): failed to open stream: No such file or directory)
+Jun 10 13:09:10 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 10 13:09:10 symfony [warning] {sfWebDebugLogger}  Warning at /home/thakidd/workspace/jobeet/cache/frontend/dev/config/config_factories.yml.php on line 141 (require_once(/home/thakidd/workspace/jobeet/lib/vendor/symfony/symfony1/lib/vendor/swiftmailer/classes/Swift.php): failed to open stream: No such file or directory)
+Jun 10 13:09:11 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 10 13:09:11 symfony [warning] {sfWebDebugLogger}  Warning at /home/thakidd/workspace/jobeet/cache/frontend/dev/config/config_factories.yml.php on line 141 (require_once(/home/thakidd/workspace/jobeet/lib/vendor/symfony/symfony1/lib/vendor/swiftmailer/classes/Swift.php): failed to open stream: No such file or directory)
+Jun 10 13:09:12 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 10 13:09:12 symfony [warning] {sfWebDebugLogger}  Warning at /home/thakidd/workspace/jobeet/cache/frontend/dev/config/config_factories.yml.php on line 141 (require_once(/home/thakidd/workspace/jobeet/lib/vendor/symfony/symfony1/lib/vendor/swiftmailer/classes/Swift.php): failed to open stream: No such file or directory)
+Jun 10 13:09:15 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 10 13:09:15 symfony [warning] {sfWebDebugLogger}  Warning at /home/thakidd/workspace/jobeet/cache/frontend/dev/config/config_factories.yml.php on line 141 (require_once(/home/thakidd/workspace/jobeet/lib/vendor/symfony/symfony1/lib/vendor/swiftmailer/classes/Swift.php): failed to open stream: No such file or directory)
+Jun 10 13:09:16 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 10 13:09:16 symfony [warning] {sfWebDebugLogger}  Warning at /home/thakidd/workspace/jobeet/cache/frontend/dev/config/config_factories.yml.php on line 141 (require_once(/home/thakidd/workspace/jobeet/lib/vendor/symfony/symfony1/lib/vendor/swiftmailer/classes/Swift.php): failed to open stream: No such file or directory)
+Jun 10 13:09:47 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Jun 10 13:09:47 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Jun 10 13:09:47 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Jun 10 13:09:47 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Jun 10 13:09:47 symfony [info] {sfPHPView} Render "/home/thakidd/workspace/jobeet/lib/vendor/symfony/symfony1/lib/controller/default/templates/indexSuccess.php"
+Jun 10 13:09:47 symfony [info] {sfPHPView} Decorate content with "/home/thakidd/workspace/jobeet/lib/vendor/symfony/symfony1/lib/controller/default/templates/defaultLayout.php"
+Jun 10 13:09:47 symfony [info] {sfPHPView} Render "/home/thakidd/workspace/jobeet/lib/vendor/symfony/symfony1/lib/controller/default/templates/defaultLayout.php"
+Jun 10 13:09:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Jun 10 13:09:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Jun 10 13:09:47 symfony [info] {sfWebDebugLogger} Configuration 50.24 ms (9)
+Jun 10 13:09:47 symfony [info] {sfWebDebugLogger} Factories 41.59 ms (1)
+Jun 10 13:09:47 symfony [info] {sfWebDebugLogger} Action "default/index" 0.08 ms (1)
+Jun 10 13:09:47 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 10.29 ms (1)
+Jun 10 13:09:47 symfony [info] {sfWebResponse} Send content (29182 o)

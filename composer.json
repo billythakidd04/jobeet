@@ -1,0 +1,12 @@
+{
+    "name": "virtuvia/coachmeplus",
+    "description": "CoachMePlus is a Athletic Training platform built and maintained by Virtuvia, LLC.",
+    "license": "proprietary",
+    "require": {
+        "composer/installers": "dev-master",
+        "symfony/symfony1": "1.4.*"
+   },
+    "config": {
+        "vendor-dir": "lib/vendor"
+    }
+}
