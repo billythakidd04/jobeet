@@ -6,4 +6,6 @@
 #symphony generated
 cache/
 log/
-/nbproject/private/
+
+#netbeans
+nbproject/
