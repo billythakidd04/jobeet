@@ -12,6 +12,10 @@
  */
 class JobeetCategory extends BaseJobeetCategory
 {
+    public function getSlug()
+    {
+        return Jobeet::slugify($this->getName());
+    }
     public function getActiveJobs($max = 10)
     {
         $q = Doctrine_Query::create()
@@ -20,5 +24,14 @@ class JobeetCategory extends BaseJobeetCategory
             ->limit($max);
 
         return Doctrine_Core::getTable('JobeetJob')->getActiveJobs($q);
+    }
+    
+    public function countActiveJobs()
+    {
+      $q = Doctrine_Query::create()
+        ->from('JobeetJob j')
+        ->where('j.category_id = ?', $this->getId());
+
+      return Doctrine_Core::getTable('JobeetJob')->countActiveJobs($q);
     }
 }
