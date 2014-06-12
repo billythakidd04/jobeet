@@ -17,6 +17,13 @@ class JobeetJobTable extends Doctrine_Table
         return Doctrine_Core::getTable('JobeetJob');
     }
     
+    public function retrieveActiveJob(Doctrine_Query $q)
+    {
+        $q->andWhere('a.expires_at > ?', date('Y-m-d H:i:s', time()));
+ 
+        return $q->fetchOne();
+    }
+    
     public function getActiveJobs(Doctrine_Query $q = null)
     {
         if (is_null($q))
